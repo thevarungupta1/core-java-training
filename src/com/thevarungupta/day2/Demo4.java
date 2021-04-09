@@ -13,6 +13,7 @@ import java.util.Iterator;
  * 3. maintain insertion order
  * 4. might slow while manipulating data
  *
+ *  ArrayList -> AbstractList -> List -> Collection -> Iterable
  *
  * */
 
@@ -117,6 +118,26 @@ public class Demo4 {
         for(Employee emp : employees){
             System.out.println("Employee: Id="+emp.empId+", Name="+emp.name+", Age="+ emp.age);
         }
+
+        // add
+        // remove
+        //employees.remove(emp1);
+        employees.remove(0);
+
+        for(Employee emp : employees){
+            System.out.println("Employee: Id="+emp.empId+", Name="+emp.name+", Age="+ emp.age);
+        }
+
+        // isEmpty()
+        // size()
+        ArrayList<String> country = new ArrayList<>();
+        System.out.println(country.isEmpty());
+        country.add("India");
+        country.add("USA");
+        country.add("UK");
+        System.out.println(country.isEmpty());
+
+        System.out.println("Size:" + country.size());
 
     }
 }
