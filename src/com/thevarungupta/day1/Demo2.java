@@ -1,4 +1,4 @@
-package com.thevarungupta;
+package com.thevarungupta.day1;
 
 class Test{
 

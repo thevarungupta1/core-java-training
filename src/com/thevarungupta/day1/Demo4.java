@@ -1,4 +1,4 @@
-package com.thevarungupta;
+package com.thevarungupta.day1;
 
 import com.sun.security.jgss.GSSUtil;
 

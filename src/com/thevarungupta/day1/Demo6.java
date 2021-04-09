@@ -1,4 +1,4 @@
-package com.thevarungupta;
+package com.thevarungupta.day1;
 
 /**
  * Loops: are used to execute a set of statement or instruction repeatedly when condition is true
