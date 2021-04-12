@@ -19,11 +19,24 @@ package com.thevarungupta.day3;
  * > In inheritance child class can consume members of its parent as it is owner of those
  *   members (except the private member of the parent class)
  *
+ * > Parent class constructor must be accessaible to the child class otherwise inheritance will not be possible
+ *
+ * > In inheritance child class can access parent class members but parent class can never access any member that define
+ *   in child class
+ *
+ *  Advantage
+ * 1. Code resuability
+ * 2. Reduce Error
+ * 3. Reduce Time
+ * 4. More Maintanable Code
  *
  *
- *
- *
- *
+ * Type of Inheritance
+ * 1. Simple / Single
+ * 2. MultiLevel
+ * 3. Hierarchical
+ * 4. Multiple
+ * 5. Hybrid
  *
  * */
 
