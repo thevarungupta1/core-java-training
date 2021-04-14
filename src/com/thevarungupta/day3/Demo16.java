@@ -10,7 +10,7 @@ package com.thevarungupta.day3;
  * > Abstract class consider as incomplete hence we cannot able to create instance of the abstract class
  * > Abstract class can always be super class
  * > The class which derived from the abstract class responsable to provide the implementation of all abstract methods
- * > A non abstrac class derived from the abstract class must provide the implementation of all abstract method
+ * > A non abstract class derived from the abstract class must provide the implementation of all abstract method
  * > Abstract method cannot have body or implementation and we try to do so it will be an compile time error
  * > Only abstract class can contain abstract method
  *
