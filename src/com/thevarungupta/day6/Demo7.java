@@ -28,7 +28,7 @@ class Table{
 //        }
 //    }
     // with Synchronization
-    synchronized void printTable(int number){
+    synchronized public void printTable(int number){
         for(int i=0;i<10;i++){
             System.out.println(number + " x "+ i + " = "+ number *i);
             try {
