@@ -20,6 +20,6 @@ public class Demo11 {
         ThreadSleepDemo t1 = new ThreadSleepDemo();
         ThreadSleepDemo t2 = new ThreadSleepDemo();
         t1.start();
-        t2.run();
+        t2.start();
     }
 }
