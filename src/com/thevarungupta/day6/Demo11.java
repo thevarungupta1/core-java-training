@@ -8,7 +8,7 @@ class Company{
     // flag - false it is producer turn
     // flag - true it is consumer turn
 
-     public void produce(int item) throws InterruptedException {
+    synchronized public void produce(int item) throws InterruptedException {
         if(flag){
             wait();
         }
@@ -19,7 +19,7 @@ class Company{
         notify();
     }
 
-     public int consume() throws InterruptedException {
+     synchronized public int consume() throws InterruptedException {
         if(!flag){
             wait();
         }
